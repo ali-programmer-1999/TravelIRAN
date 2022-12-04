@@ -1,0 +1,12 @@
+._book_section_ {
+    height: max-content;
+    display: flex;
+    justify-content: start;
+}
+
+._sort_book_{
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: .3rem;
+    background-color: rgb(245, 255, 245);
+    padding: .4rem;
+}

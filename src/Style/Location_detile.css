@@ -1,0 +1,48 @@
+._location_detile_ {
+    max-height: 400px;
+    height: 400px !important;
+}
+
+._form_comment_ {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: max-content;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+._form_comment_ input {
+    border-radius: .3rem;
+    border: 1px solid gray;
+    padding: .5rem;
+    width: 400px;
+}
+
+._form_comment_ form{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+._form_group_ {
+    display: flex;
+    flex-direction: column;
+    margin: .2rem 0;
+}
+
+._form_group_ textarea {
+    border-radius: .3rem;
+    border: 1px solid gray;
+    padding: .5rem;
+    width: 600px;
+    height: 280px;
+}
+
+._form_group_ label{
+    font-size: .9rem;
+    color: gray;
+    font-weight: bold;
+    padding-left: .4rem;
+}

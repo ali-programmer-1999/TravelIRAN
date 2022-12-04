@@ -1,0 +1,22 @@
+footer {
+    font-family: 'Merriweather Sans', sans-serif;
+    background: #8ae9be;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #95ebc4, #caf8f6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #cefae5, #e3fcfa);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 55vh;
+    background-image: url('../Assets/image/Footer/design_element_Tree.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 10%;
+    margin-top: 3rem;
+}
+
+._icons_social_ i{
+    cursor: pointer;
+}
+._icons_social_ i:hover{
+    color: var(--orange-color);
+}

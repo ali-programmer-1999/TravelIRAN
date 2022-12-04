@@ -1,0 +1,20 @@
+._aboutus_image1_ {
+    position: absolute;
+    width: 350px !important;
+    height: 350px !important;
+    object-fit: cover;
+    right: -10px;
+    top: 40px;
+    box-shadow: 0 0 0 !important;
+    border-radius: .3rem;
+}
+._aboutus_image2_ {
+    position: absolute;
+    width: 300px !important;
+    height: 300px !important;
+    object-fit: cover;
+    left: -20px;
+    bottom: 30px;
+    box-shadow: 0 0 0 !important;
+    border-radius: .3rem;
+}

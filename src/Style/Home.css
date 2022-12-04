@@ -1,0 +1,162 @@
+._section_1_ p {
+    font-size: .9rem;
+    padding-right: 2rem;
+}
+
+._section_book_ {
+    background-color: #B2F3DE;
+    border-radius: 2rem;
+    padding: 2rem .4rem;
+}
+
+._icons_list_book_ {
+    border-radius: 1rem;
+    padding: 1rem 0;
+    user-select: none;
+}
+
+._section_book_ input {
+    width: 250px;
+    height: 50px;
+    border-radius: 0.5rem;
+    padding: 0 .7rem;
+    border: none;
+    box-shadow: 0 0 20px rgba(59, 59, 59, 0.548);
+}
+
+._section_book_ select {
+    width: 250px;
+    height: 50px;
+    border-radius: 0.5rem;
+    padding: 0 .7rem;
+    border: none;
+    box-shadow: 0 0 20px rgba(59, 59, 59, 0.548);
+}
+
+._section_book_ h5 {
+    padding: 0 .5rem;
+    font-weight: 600;
+}
+
+._btn_book_submit_ {
+    background-color: #1EC28B;
+}
+
+._btn_book_submit_:hover {
+    background-color: var(--orange-color);
+}
+
+._serve_service_ h3 {
+    color: var(--orange-color);
+}
+
+._section_serve_ {
+    height: max-content;
+    padding: 3rem 0;
+    margin: 8rem 1rem !important;
+    background-image: url('../Assets/image/Home/section_3/design_element_sec2.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+._service_box_ {
+    background: linear-gradient(to bottom, #e1fcfa, #c8fce3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    user-select: none;
+    flex-wrap: wrap;
+}
+
+._secton_location_ {
+    height: max-content;
+    background-image: url('../Assets/image/Home/section_4/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.location_content {
+    background-color: rgba(4, 32, 0, 0.623);
+    height: 100%;
+}
+
+._location_content_row_{
+    padding: 2rem 0;
+}
+._location_content_row_ h2 {
+    color: var(--orange-color);
+}
+
+._section_about_ {
+    background: linear-gradient(to bottom, #c8fce3, #f7fffe);
+    height: max-content;
+    margin-bottom: 4rem;
+}
+
+._section_about_ img {
+    object-fit: cover;
+    height: 100%;
+    width: 95%;
+    border: 10px solid white;
+    box-shadow: 0 0 20px #82f3bc;
+}
+
+._section_leader_ {
+    height: max-content;
+    margin-top: 4rem;
+    background-image: url('../Assets/image/Home/section_6/section_6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+._leader_content_ {
+    background-color: rgba(4, 32, 0, 0.623);
+    height: 100%;
+    padding: 2rem;
+}
+
+._leader_cart_ {
+    height: max-content;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: linear-gradient(to bottom, #c8fce3, #f7fffe);
+}
+
+._leader_cart_ img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+._leader_cart_ .ri-double-quotes-r {
+    background-color: rgba(63, 63, 63, 0.425);
+}
+
+._leader_cart_ p {
+    text-align: justify;
+    line-height: 1.9rem;
+}
+
+._section_article_ {
+    background: linear-gradient(to bottom, #c8fce3, #f7fffe);
+    padding: 5rem 0;
+    height: max-content;
+}
+
+
+/* responsive */
+@media screen and (max-width: 992px) {
+    ._section_book_ input {
+        width: 300px;
+    }
+
+    ._section_book_ select {
+        width: 300px;
+    }
+}

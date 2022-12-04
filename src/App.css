@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+
+}
+
+:root {
+  --green-color: #2d6a4f;
+  --orange-color: #f99331;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2d6a4f;
+  border-radius: .2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2d6a4f;
+}
+
+
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background: #8ae9be;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #dffdf0c4, #cefffd);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #c8fce3, #f7fffe);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #00103b;
+}
+
+._btn_ {
+  background-color: #157347;
+  border-radius: 2rem;
+  padding: .6rem 2rem;
+  border: none;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.308);
+  text-align: center;
+  text-decoration: none;
+}
+
+._btn_:hover {
+  background-color: #157347e7;
+  color: white;
+}
+
+.text-orange {
+  color: #f99331;
+}
+
+.bg-orange {
+  background: #f99331;
+}
+
+.bg-gradint {
+  background: linear-gradient(to top, #c8fce3, #f7fffe);
+}
+
+
+.h-content {
+  height: max-content;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.text-justify {
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+/* order */
+._icons_order_ span {
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+
+._order_img_ {
+  height: 200px;
+}
+
+._slider_height_ img {
+  max-height: 220px;
+  object-fit: cover;
+}
+
+/* rate star  */
+.style-module_simpleStarRating__nWUxf {
+  width: max-content;
+}
+
+.style-module_simpleStarRating__nWUxf span svg {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,48 @@
+header {
+    height: 150px;
+}
+
+._navigation_ {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._navigation_ ._logo_ {
+    width: 180px;
+    padding-bottom: 1.4rem;
+}
+
+
+.nav-link:hover {
+    color: var(--orange-color) !important;
+}
+
+._icons_nav_ {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+._icons_nav_ span {
+    cursor: pointer;
+}
+
+
+.nav-link.active {
+    color: var(--orange-color) !important;
+}
+
+._header_icons_{
+    background-color: var(--orange-color);
+    padding: .25rem .5rem;
+    border-radius: 50%;
+}
+
+._badge_{
+    font-size: 1.3rem;
+    bottom: 10px;
+    right: -3px;
+}

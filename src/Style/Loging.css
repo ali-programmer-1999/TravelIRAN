@@ -1,0 +1,16 @@
+._login_from_ input{
+    width: 300px;
+    margin: .3rem;
+    border: 1px solid gray;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
+
+._link_text_{
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+._loging_icons_{
+    cursor: pointer;
+}
